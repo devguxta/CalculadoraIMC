@@ -20,11 +20,11 @@ class ResultActivity : AppCompatActivity() {
         tvResult.text = result.toString()
 
         /* TABELA IMC
-        Menor que 18,5          Abaixo do peso 0
-        Entre 18,5 e 24,9       Normal 0
-        Entre 25,0 e 29,9       Sobrepeso I
-        Entre 30,0 e 39,9       Obesidade II
-        Maior que 40,0          Obesidade Grave III
+        Menor que 18,5          Abaixo do peso
+        Entre 18,5 e 24,9       Normal
+        Entre 25,0 e 29,9       Sobrepeso
+        Entre 30,0 e 39,9       Obesidade
+        Maior que 40,0          Obesidade Grave
          */
 
         val classificacao =if (result < 18.5f) {
